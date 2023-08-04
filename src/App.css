@@ -1,38 +1,134 @@
-.App {
+/* -----------FOOTER--------- */
+.footer-main{
+  height:50px;
+  background-color:whitesmoke;
+  padding:10px;
+}
+.footer-main p{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-second{
+  background-color: whitesmoke;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap:1rem;
+  flex-wrap: wrap;
+}
+.subfooter{
+     display:flex;
+     flex-direction:column;
+     flex-basis: 20px;
+     padding:10px;
+     
+}
+.subfooter >*{
+  flex:1;
+  min-width:200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headingtype{
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.custom-link {
+  color: rgb(33, 37, 41); 
+  text-decoration: none; 
+}
+.custom-link:hover {
+  font-size: 105%;
+  font-weight: bolder; 
+}
+
+/* --------- */
+
+
+
+.mainscreenpart1{
+  background-color:white;
+  min-height:500px;
+  height:auto;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textpart1{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap:5px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+}
+.textpart1 >.textpart11{
+     height:60px;
+     font-size: 2.2rem;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     margin:0px;
 }
 
-.App-link {
-  color: #61dafb;
+.warehouseimg{
+  height:500px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* -----MAIN SCREEN------- */
+.mainScreen1{
+  padding: .5rem;
+  margin: 1rem;
+  background-color: rgb(231, 224, 224);
+}
+
+
+
+
+.city-search{
+  text-align: end;
+}
+
+.search{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.item{
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: .5rem;
+  grid-column: span 1 ;
+  height: 100%;
+}
+
+.navlink{
+  color: #ffffff;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.active{
+  border-bottom: .5px solid black;
+}
+
+
+
+/* sign up */
+.wrapper{
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.login{
+  height: min-content;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(206, 216, 225);
+}
+
+.resend-otp-description{
+  padding-top: 20px;
 }
