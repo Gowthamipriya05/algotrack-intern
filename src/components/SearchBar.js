@@ -5,8 +5,10 @@ import Button from 'react-bootstrap/Button';
 const SearchBar = () => {
   return (
     <>
-        <div>
-            <Form className="d-flex ms-auto search col-sm-8 col-md-6 col-xl-5">
+        
+
+       <div className='city-search'>
+            <Form className="d-flex ms-auto  search col-md-8 col-lg-6 col-xl-5">
             <Form.Control
               type="search"
               placeholder="Search"

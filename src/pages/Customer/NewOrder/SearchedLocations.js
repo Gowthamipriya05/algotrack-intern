@@ -38,7 +38,7 @@ const SearchedLocations = () => {
   return (
     <>
 
-       <div className="container">
+       <div className="container mb-4">
        <SearchBar/>
         <div className="row g-2 bg-secondary rounded">
 
@@ -50,7 +50,7 @@ const SearchedLocations = () => {
         <Card.Img variant="top" src={item.img} />
         <Card.Body>
           <Card.Text>
-            Warehouse Name :{searchedLocationsData[0].warehouseName}
+            Warehouse Name :{item.warehouseName}
           </Card.Text>
           <Card.Text>
             Warehouse Location :

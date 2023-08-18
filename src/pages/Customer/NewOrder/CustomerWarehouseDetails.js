@@ -3,12 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Carousel} from 'react-bootstrap';
-import "./WarehouseDetails.css";
+import "./CustomerWarehouseDetails.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-const WarehouseDetails = () => {
+const CustomerWarehouseDetails = () => {
   return (
     <>
         <Container>
@@ -81,4 +81,4 @@ const WarehouseDetails = () => {
   )
 }
 
-export default WarehouseDetails
+export default CustomerWarehouseDetails

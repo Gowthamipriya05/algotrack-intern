@@ -7,9 +7,10 @@ import './MainScreen1.css';
 const MainScreen1 = () => {
   return (
     <>
-       <div className='mainScreen1'>
+          <div className='container mb-5'>
+       <div className='mainScreen1 rounded'>
        <div className='city-search'>
-            <Form className="d-flex ms-auto search col-sm-6">
+            <Form className="d-flex ms-auto  search col-md-8 col-lg-6 col-xl-5">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -21,8 +22,7 @@ const MainScreen1 = () => {
        </div>
        
 
-          <div className='container'>
-          <div className='row g-3'>
+          <div className='row g-3 p-3'>
           {city.map(val=>{
             return (
               <div className='col-6 col-md-4 col-lg-3'>
