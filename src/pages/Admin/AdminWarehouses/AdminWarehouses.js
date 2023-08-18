@@ -1,12 +1,12 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import "./PartnerWarehouses.css";
+import "./AdminWarehouses.css";
 import { Link } from 'react-router-dom';
-import SearchBar from '../../components/SearchBar';
+import SearchBar from '../../../components/SearchBar';
 
-const PartnerWarehouses = () => {
-    const partnerWarehousesData=[
+const AdminWarehouses = () => {
+    const AdminWarehousesData=[
         {
           img:'https://www.shutterstock.com/shutterstock/photos/1929800966/display_1500/stock-photo-interior-of-a-modern-warehouse-storage-of-retail-shop-with-pallet-truck-near-shelves-1929800966.jpg',
           warehouseName:'uncle warehouse',
@@ -39,13 +39,14 @@ const PartnerWarehouses = () => {
 
        <div className="container">
        <SearchBar/>
+       
         <div className="row g-2 bg-secondary rounded">
 
           
-        { partnerWarehousesData.map(item => {
+        { AdminWarehousesData.map(item => {
           return(
           <div className="col-sm-12 col-lg-6 ">
-            <Card style={{ width: '26rem' }} className="card shadow">
+            <Card style={{ width: '26rem' }} className="admin-warehouses-card shadow">
         <Card.Img variant="top" src={item.img} />
         <Card.Body>
           <Card.Text>
@@ -78,4 +79,4 @@ const PartnerWarehouses = () => {
   )
 }
 
-export default PartnerWarehouses
+export default AdminWarehouses;

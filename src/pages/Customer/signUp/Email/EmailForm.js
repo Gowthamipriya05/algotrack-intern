@@ -15,13 +15,13 @@ function EmailForm(){
         navigate('/customer/registration');
     }
     return <form className='needs-validation'>
-        <div class="form-floating was-validated mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="abc@example.com" required/>
+        <div className="form-floating was-validated mb-3">
+            <input type="email" className="form-control" id="floatingInput" placeholder="abc@example.com" required/>
             <label for="floatingInput">Email</label>
             <div className='invalid-feedback'>Enter your Email</div>
         </div>
-        {isClicked ? <div><div class="form-floating was-validated mb-3">
-                                <input type="number" class="form-control" id="floatingInput" placeholder="OTP" required/>
+        {isClicked ? <div><div className="form-floating was-validated mb-3">
+                                <input type="number" className="form-control" id="floatingInput" placeholder="OTP" required/>
                                 <label for="floatingInput">OTP</label>
                     </div><div className='invalid-feedback'>Enter the OTP</div></div>  : null}
         {isClicked ? <button type ='submit' onClick={handleVerifyOtp} className='btn btn-success w-100 mt-2'>Verify OTP</button> : <button type ='submit' onClick={handleGetOtp} className='btn btn-success w-100 mt-2'>Get OTP</button> }

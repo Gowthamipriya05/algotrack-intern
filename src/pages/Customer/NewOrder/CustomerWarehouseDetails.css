@@ -7,10 +7,7 @@
     padding: 10px;
   }
   
-  carousel-warehouse-imgs {
-    border-radius: 2%;
-    width: 100%;
-  }
+  
   
   .carousel {
     margin-top: 8%;
@@ -40,25 +37,4 @@
   
    
 
-   
-  /* @media (max-width: 768px) {
-    .moredetails {
-      width: 90%;
-    }
-  
-    .carousel {
-      width: 100%;
-    }
-  
-    .referon {
-      margin-left: 0;
-      width: 100%;
-    }
-  
-    .detailsinfo {
-      margin-top: 5%;
-    }
-    div Button{
-        margin-left:60%;
-    }
-  } */
+ 
